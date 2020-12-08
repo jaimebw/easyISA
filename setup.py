@@ -7,5 +7,8 @@ setup(
     description='Easy implementation of ISA equations',
     author='Jaime Bowen',
     install_requires = [],
-    license='MIT'
+    license='MIT',
+    setup_requires=['pytest-runner'],
+    tests_require=['pytest'],
+    test_suite='tests',
 )
