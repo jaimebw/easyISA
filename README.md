@@ -1,4 +1,5 @@
 # Easy I.S.A 
+[![Code style: black](https://img.shields.io/badge/code%20style-black-black.svg)](https://github.com/python/black)
 
 ## Introduction
 
@@ -7,9 +8,9 @@ The main purpose of this library is to be simple, and to be based only on in-pyt
 
 ## TO-DO List
 
-* Create library
-* Create tests
-* Create examples of use
-* Maybe implement getting data as .csv or .txt?
+* [X] Create library
+* [X] Create tests
+* [ ]Create examples of use
+* [ ] Maybe implement getting data as .csv or .txt?
 ## References
 [The International Standard Atmoshphere (ISA)](http://fisicaatmo.at.fcen.uba.ar/practicas/ISAweb.pdf)
