@@ -10,6 +10,7 @@ The main purpose of this library is to be simple, and to be based only on in-pyt
 
 * [X] Create library
 * [X] Create tests
+* [ ] Upload to [Pypi](https://packaging.python.org/tutorials/packaging-projects/)
 * [ ]Create examples of use
 * [ ] Maybe implement getting data as .csv or .txt?
 ## References
