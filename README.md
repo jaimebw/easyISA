@@ -4,7 +4,7 @@
 ## Introduction
 
 This library is an implementation of the International Standard Atmoshphere equations.
-The main purpose of this library is to be simple, and to be based only on in-python modules.
+The main purpose of this library is to be simple, and to be based only on in-python modules. And for myself on learning how to deploy working libraries.
 
 ## TO-DO List
 
@@ -20,17 +20,15 @@ To install you just need to write:
 pip install easyISA 
 ```  
 
-The usage is simple. For example, I want to know the preasuer at 9.8km altitude:
+The usage is simple. For example, if I wanted to know the preasure at an altitude of 9.8km, I'd type:
 
-´´´python
-
-from easyISA import equations as eq  
-
-p = eq.presure.meter(9.8e3)
-
+```python
+from easyISA.equations import pressure 
+p = pressure.meter(9.8e3)
 print(p)
-
-´´´
+```
+More examples inside the example directory:
+* [Representation of the atmosphere from the troposhphere to statosphere]()
 
 asdasd
 ## References
