@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 setup(
-    name = 'easyISA-jaimebw',
+    name = 'easyISA',
     packages=find_packages(include=['easyISA']),
     version= '0.1.0',
     description='Easy implementation of ISA equations',
@@ -15,18 +15,3 @@ setup(
     url="https://github.com/jaimebw/easyISA",
     python_requires='>=3.6'
 )
-"""
-setuptools.setup(
-    name="example-pkg-YOUR-USERNAME-HERE", # Replace with your own username
-    
-  
-    
-    packages=setuptools.find_packages(),
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-    ],
-    
-)
-"""
