@@ -11,7 +11,7 @@ _/ __ \\__  \  /  ___<   |  ||   |\_____  \  /  /_\  \
 ## Introduction
 
 This library is an implementation of the International Standard Atmoshphere equations.
-The main purpose of this library is to be simple, and to be based only on in-python modules. And for myself on learning how to deploy working libraries.
+The main purpose of this library is to be simple,to be based only on in-python modules and to help me learn how to deploy libraries.
 
 ## TO-DO List
 
@@ -37,7 +37,5 @@ print(p)
 More examples inside the example directory:
 * [Representation of the atmosphere from the troposhphere to statosphere](https://github.com/jaimebw/easyISA/blob/main/examples/representation_atmosphere.ipynb)
 
-
-asdasd
 ## References
 [The International Standard Atmoshphere (ISA)](http://fisicaatmo.at.fcen.uba.ar/practicas/ISAweb.pdf)
