@@ -10,8 +10,13 @@ The main purpose of this library is to be simple, and to be based only on in-pyt
 
 * [X] Create library
 * [X] Create tests
-* [ ] Upload to [Pypi](https://packaging.python.org/tutorials/packaging-projects/)
+* [X] Upload to [Pypi](https://packaging.python.org/tutorials/packaging-projects/)
 * [ ]Create examples of use
 * [ ] Maybe implement getting data as .csv or .txt?
+# Installation
+To install you just need to write: 
+```
+pip install easyISA 
+```
 ## References
 [The International Standard Atmoshphere (ISA)](http://fisicaatmo.at.fcen.uba.ar/practicas/ISAweb.pdf)
