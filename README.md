@@ -1,4 +1,11 @@
-# Easy I.S.A 
+```
+                             .___  _________   _____   
+  ____ _____    _________.__.|   |/   _____/  /  _  \  
+_/ __ \\__  \  /  ___<   |  ||   |\_____  \  /  /_\  \ 
+\  ___/ / __ \_\___ \ \___  ||   |/        \/    |    \
+ \___  >____  /____  >/ ____||___/_______  /\____|__  /
+     \/     \/     \/ \/                 \/         \/ 
+```
 [![Code style: black](https://img.shields.io/badge/code%20style-black-black.svg)](https://github.com/python/black)
 
 ## Introduction
@@ -28,7 +35,8 @@ p = pressure.meter(9.8e3)
 print(p)
 ```
 More examples inside the example directory:
-* [Representation of the atmosphere from the troposhphere to statosphere]()
+* [Representation of the atmosphere from the troposhphere to statosphere](https://github.com/jaimebw/easyISA/blob/main/examples/representation_atmosphere.ipynb)
+
 
 asdasd
 ## References
