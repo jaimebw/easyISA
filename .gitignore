@@ -4,3 +4,6 @@ isa
 .eggs
 easyISA.egg-info
 .pytest_cache
+dist
+build
+easyISA_jaimebw.egg-info
