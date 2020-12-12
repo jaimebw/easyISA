@@ -31,7 +31,7 @@ class temperature:
             return t0 - 1.98 * altitude / 1000
 
 
-class presure:
+class pressure:
     @staticmethod
     def meters(altitude):
         """
@@ -50,5 +50,5 @@ class density:
         """
         Returns density in kg/m^3 for height in altitude
         """
-        density = presure.meters(altitude) / (R * temperature.meters(altitude))
+        density = pressure.meters(altitude) / (R * temperature.meters(altitude))
         return density
