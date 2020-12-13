@@ -6,7 +6,8 @@ _/ __ \\__  \  /  ___<   |  ||   |\_____  \  /  /_\  \
  \___  >____  /____  >/ ____||___/_______  /\____|__  /
      \/     \/     \/ \/                 \/         \/ 
 ```
-[![Code style: black](https://img.shields.io/badge/code%20style-black-black.svg)](https://github.com/python/black)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-black.svg)](https://github.com/python/black)  
+[![Build Status](https://travis-ci.org/jaimebw/easyISA.svg?branch=main)](https://travis-ci.org/jaimebw/easyISA)
 
 ## Introduction
 
