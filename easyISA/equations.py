@@ -7,6 +7,7 @@ p11 = 226.32e2
 t11 = 216.65
 R = 287
 g = 9.81
+gamma = 1.4
 
 
 class temperature:
@@ -48,7 +49,15 @@ class density:
     @staticmethod
     def meters(altitude):
         """
-        Returns density in kg/m^3 for height in altitude
+        Returns density in kg/m^3 for altitude in meters
         """
         density = pressure.meters(altitude) / (R * temperature.meters(altitude))
         return density
+
+class mach_number:
+    @staticmethod
+    def meters(altitude):
+        """
+        Return Mach number for altitude in meters
+        """
+        return math.sqrt(temperature.meters(altitude)*gamma*R)
