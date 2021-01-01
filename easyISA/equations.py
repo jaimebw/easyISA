@@ -54,10 +54,10 @@ class density:
         density = pressure.meters(altitude) / (R * temperature.meters(altitude))
         return density
 
-class mach_number:
+class sound_speed:
     @staticmethod
     def meters(altitude):
         """
-        Return Mach number for altitude in meters
+        Returns speed of sounds in m/s  for altitude in meters
         """
         return math.sqrt(temperature.meters(altitude)*gamma*R)
