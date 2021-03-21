@@ -13,5 +13,6 @@ setup(
     tests_require=['pytest'],
     test_suite='tests',
     url="https://github.com/jaimebw/easyISA",
-    python_requires='>=3.6'
+    #package_dir={"": "easyISA"},
+    python_requires='>=3.6',
 )
